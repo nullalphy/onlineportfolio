@@ -22,31 +22,26 @@ const Picture = ({Pics,item}) => {
                      <img src={activity1.output1} alt=""/> 
                      <img src={activity1.code1} alt=""/>
                 </>)
-                break;
             case 2:
                  return(<>
                     <img src={activity2.output2} alt=""/>
                     <img src={activity2.code2} alt=""/>
                  </>)
-                 break;
             case 3:
                 return(<>
                     <img src={activity3.output3} alt=""/>
                     <img src={activity3.code3} alt=""/>
                  </>)
-                 break;
             case 4:
                 return(<>
                     <img src={activity4.output4} alt=""/>
                     <img src={activity4.code4} alt=""/>
                  </>)
-                 break;
             case 5:
                 return(<>
                     <img src={activity5.output5} alt=""/>
                     <img src={activity5.code5} alt=""/>
                  </>)
-                 break;
             case 6:
                 return(<>
                     <img src={activity6.add} alt=""/>
@@ -59,7 +54,6 @@ const Picture = ({Pics,item}) => {
                     <img src={activity6.output2} alt=""/>
                     <img src={activity6.output3} alt=""/>
                  </>)
-                 break;
             case 7:
                 return(<>
                     <img src={activity7.OutPut} alt=""/>
@@ -71,7 +65,6 @@ const Picture = ({Pics,item}) => {
                     <img src={activity7.arithmetic} alt=""/>
                     <img src={activity7.arithmeticForm} alt=""/>
                  </>)
-                 break;
             case 8:
                 return(<>
                     <img src={ControlStructure.output1} alt=""/>
@@ -81,7 +74,6 @@ const Picture = ({Pics,item}) => {
                     <img src={ControlStructure.output5} alt=""/>
                     <img src={ControlStructure.code} alt=""/>
                  </>)
-                 break;
             case 9:
                 return(<>
                     <img src={randomnumber.output1} alt=""/>
@@ -89,7 +81,6 @@ const Picture = ({Pics,item}) => {
                     <img src={randomnumber.output3} alt=""/>
                     <img src={randomnumber.code} alt=""/>
                  </>)
-                 break;
             case 10:
                 return(<>
                     <img src={game.output1} alt=""/>
@@ -103,7 +94,6 @@ const Picture = ({Pics,item}) => {
                     <img src={game.code3} alt=""/>
                     <img src={game.code4} alt=""/>
                  </>)
-                break;
             case 11:
                 return(<>
                     <img src={LaboratoryExcercise1.output1} alt=""/>
@@ -111,7 +101,6 @@ const Picture = ({Pics,item}) => {
                     <img src={LaboratoryExcercise1.output3} alt=""/>
                     <img src={LaboratoryExcercise1.code} alt=""/>
                  </>)
-                 break;
             case 12:
                 return(<>
                     <img src={LaboratoryExcercise2.output1} alt=""/>
@@ -120,7 +109,6 @@ const Picture = ({Pics,item}) => {
                     <img src={LaboratoryExcercise2.output4} alt=""/>
                     <img src={LaboratoryExcercise2.code} alt=""/>
                  </>)
-                 break;
             case 13:
                 return(<>
                     <img src={LaboratoryExcercise3.output1} alt=""/>
@@ -129,7 +117,6 @@ const Picture = ({Pics,item}) => {
                     <img src={LaboratoryExcercise3.code2} alt=""/>
                     <img src={LaboratoryExcercise3.code3} alt=""/>
                  </>)
-                 break;
             case 14:
                 return(<>
                     <img src={POS.output1} alt=""/>
@@ -141,7 +128,6 @@ const Picture = ({Pics,item}) => {
                     <img src={POS.output7} alt=""/>
                     <img src={POS.output8} alt=""/>
                  </>)
-                 break;
             default:
                 <><h1>helloo</h1></>
                 break;
